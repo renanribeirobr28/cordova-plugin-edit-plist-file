@@ -43,7 +43,9 @@
                 <string>instagram</string>
             </array>
         </config-file>
-        
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>We access your camera to take pictures and to save your profile picture and your pet. These data are only for personalizing your APP</string>
+        </config-file>
         
         
     </platform>
