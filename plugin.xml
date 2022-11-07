@@ -29,20 +29,6 @@
     
     <!-- ios -->
     <platform name="ios">
-        
-        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>fb-messenger</string>
-                <string>instagram</string>
-            </array>
-        </config-file>
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
             <string>We access your camera to take pictures and to save your profile picture and your pet. These data are only for personalizing your APP</string>
         </config-file>
